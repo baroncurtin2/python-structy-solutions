@@ -1,4 +1,7 @@
 def token_replace(s: str, tokens: dict[str, str]) -> str:
+    # n = length of string
+    # Time: O(n)
+    # Space: O(n)
     i = 0
     j = 1
 
